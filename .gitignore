@@ -1,0 +1,75 @@
+# =====================================================================
+# PhotoFrameProcessor - Git Ignore Configuration
+# =====================================================================
+
+# 1. Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+
+# 2. Testing, Profiling & Coverage Cache
+.pytest_cache/
+.test-attempts/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# 3. Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 4. PyInstaller Build Artifacts & Executables
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# 5. Output Pemrosesan & Laporan Pengujian
+outputs/
+output/
+processing_report.json
+processing_report.csv
+benchmark_report.json
+benchmark_report.csv
+
+# 6. File Sementara & Sandbox Verifikasi
+*.tmp*
+.tmp_*
+test_verification_sandbox/
+
+# 7. Konfigurasi Lokal Pengguna (Local Settings & State)
+user_config.json
+*.local.json
+
+# 8. Frame Final Milik Tim Dokumentasi (Aset Sensitif / Spesifik Acara)
+assets/borders/final/
+assets/borders/frame_desain_a.png
+assets/borders/frame_desain_b.png
+
+# Catatan: Frame demo di assets/borders/demo/ tetap dimasukkan ke repository
+!assets/borders/demo/
+!assets/borders/demo/*.png
+
+# 9. Direktori Eksternal / Non-Proyek
+antigravity-skills/
+handoff-repo/
+
+# 10. File Sistem Operasi & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Agent Skills (not tracked in Git)
+.agents/

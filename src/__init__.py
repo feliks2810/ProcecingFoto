@@ -1,0 +1,3 @@
+"""
+PhotoFrameProcessor source package.
+"""
